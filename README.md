@@ -1,3 +1,4 @@
 # howard2048.github.io
 
-[Hello, World](./post/2022-12-15-hello-world.html)
+* [Install Caddy on macOS](posts/2022-12-16-install-caddy-on-macos.html)
+* [Hello, World](posts/2022-12-15-hello-world.html)
