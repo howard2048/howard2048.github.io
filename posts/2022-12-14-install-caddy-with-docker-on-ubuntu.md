@@ -24,12 +24,31 @@ See [Install the Compose standalone](https://docs.docker.com/compose/install/oth
 chmod +x /usr/local/bin/docker-compose
 ```
 
-Check with command `docker-compose -v`
-`Docker Compose version v2.14.0`
+Check version
+
+```shell
+docker-compose -v
+```
+
+If OK, shows:
+```
+Docker Compose version v2.14.0
+```
 
 ## docker-compose.yml
 
 用`touch`命令创建一个文件名为 `docker-compose.yml`的文件。用`vi`命令打开，粘贴以下配置：
+
+```shell
+cd /opt/data/
+mkdir caddy
+cd caddy
+mkdir data
+mkdir config
+touch docker-compose.yml
+```
+
+Copy and paste the configuration
 
 ```yaml
 version: "3.7"
@@ -59,11 +78,16 @@ yourdomain.com {
 
 DNS A记录指向你的公网IP地址。
 
-打开浏览器，访问[https://yourdomain]()。
+Open browser, visit: [https://yourdomain.com]()。
 
-如果你看到`Hello, Caddy!`，恭喜你！
+If OK, `Hello, Caddy!` will shown.
 
-Caddyfile 2
+```
+cd 
+```
+
+
+Update Caddyfile to:
 
 ```
 yourdomain.com {
