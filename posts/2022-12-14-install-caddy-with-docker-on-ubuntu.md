@@ -9,7 +9,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 DRY_RUN=1 sudo sh ./get-docker.sh
 ```
 
-See [Install Docker Engine on Ubuntu | Docker Documentation](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
+See [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 
 ## Install Docker Compose
 
@@ -17,7 +17,7 @@ See [Install Docker Engine on Ubuntu | Docker Documentation](https://docs.docker
 curl -SL https://get.daocloud.io/docker/compose/releases/download/v2.14.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 ```
 
-See [Install the Compose standalone | Docker Documentation](https://docs.docker.com/compose/install/other/)
+See [Install the Compose standalone](https://docs.docker.com/compose/install/other/)
 
 
 ```shell
