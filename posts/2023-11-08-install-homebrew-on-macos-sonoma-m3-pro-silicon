@@ -1,1 +1,33 @@
+# Homebrew install on macOS Sonoma (M3 Pro silicon)
 
+Trying to install Homebrew on my new Mackbook Pro,
+
+The OS is Sonoma 14.1.1, M3 Pro slicon
+
+
+## Install with the script, failed.
+
+According the guide Homebrew offical site: https://brew.sh/
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+The logs shows now error, but when trying check with
+```
+brew --version
+```
+Shows error `brew not found`
+
+Someone says it is caused by the Apple slicon version is installation directory `/opt/homebrew/bin`,
+
+I checked, the directory of is empty?
+
+## Install Homebrew by pkg file
+
+Step by step, then try
+```
+brew --version
+```
+
+Works.
